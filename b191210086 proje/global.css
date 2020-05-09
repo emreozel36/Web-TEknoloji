@@ -1,0 +1,249 @@
+body{
+    
+    margin: 0;
+	padding: 0;
+    border: 0;
+    background-image: url('arkaplan.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.menu{
+
+    overflow: hidden;
+    background-color:black;
+    width:100%;
+   
+}
+.menu ul li{
+    
+    
+    float:left;
+    list-style:none;
+    position: relative;
+    left:20%;
+ 
+}
+.menu ul li a{
+
+    display:block;
+    padding:10px 20px;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    
+   
+
+}
+.menu ul li a:hover{
+
+   background-color:#555;
+
+}
+
+.icerik{
+   
+    width:100%;
+    height:400px;   
+}
+.icerik img{
+    width:100%;
+    height:400px;
+}
+
+.hakkımda {
+    
+    width:100%;
+    height:auto;
+    border:5;  
+}
+
+.mirasimiz{
+    width:100%;
+    height:auto;
+    float: left;
+    font-size:20px;
+    font-family:Arial Nova Light;
+    margin-bottom:20px;
+    color:white;
+   
+
+}
+
+.mirasimiz img{
+    width:50%;
+    height:auto;
+    float: left;
+    padding-right:5px;
+
+}
+
+.sehrim{
+    
+    width:100%;
+    color: white;
+    font-size: 20px;
+}
+
+.menuAc{
+    background-color:black;
+    padding:10px;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+    display:none;
+}
+
+.ccc{
+    width:100%;
+    
+   
+    margin-top: 50px;
+   
+    
+}
+.foto{
+    width:60%;
+    
+    margin:auto;
+   color: white;
+    font-size:21px;
+    
+}
+.foto img {
+    width:40%;
+    margin-right:9px;
+    float: left;
+
+}
+.iletisim{
+   
+    width:100%;
+    height:900px;
+    margin:auto;
+    padding-top:70px;
+    
+    
+}
+.iletisimm{
+   
+    margin:center;
+    width:25%;
+    margin: auto;
+    padding-top:5px;
+}
+input , textarea{
+    width:100%;
+    height:30px;
+    border:1px solid black;
+    
+}
+textarea{
+    width:100%;
+    height:150px;
+    max-width:100%;
+    max-height:250px;
+}
+.tablo .tablom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+table,
+td,
+th,
+tr {
+    padding: 1.5rem;
+
+}
+
+
+.slider{
+    position: relative;
+    width:400px;
+    height:400px;
+    border:1 solid red ;
+    margin: auto;
+    overflow: hidden;
+}
+.slider-content{
+    position: absolute;
+    width:400%;
+    left: 0;
+    animation: slide 10s infinite;
+}
+.slider-item{
+    width:25%;
+    float: left;
+}
+@keyframes slide {
+
+    0%{
+     
+        transform: translateX(0px);
+    }
+    10%{
+     
+        transform: translateX(-400px);
+    }
+    20%{
+     
+        transform: translateX(-400px);
+    }
+    30%{
+     
+        transform: translateX(-800px);
+    }
+    40%{
+     
+        transform: translateX(-800px);
+    }
+    50%{
+     
+        transform: translateX(-1200px);
+    }
+    60%{
+     
+        transform: translateX(-1200px);
+    }
+   
+    
+   
+
+}
+.login{
+    width:25%;
+    height:900px;
+    margin:auto;
+    padding-top:100px;
+    
+ 
+    
+}
+@media screen and (max-width:825px){
+    .menuAc{
+        display:block;
+    }
+    .menu ul {
+        display:none;
+    }
+    .menu ul li {
+        float:none;
+    }
+    .hakkımdasol{
+        width:100%;
+    }
+    .hakkımdasag{
+        width:100%;
+    }
+   
+}
+@media (min-width:825px) {
+    .menu ul{
+        display:block!important}
+}
+
